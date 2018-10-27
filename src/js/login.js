@@ -42,7 +42,8 @@ jQuery(function($){
                success : function(ress){
                   console.log(666);
                   if(ress == "exist"){
-                      alert("登录成功");   
+                      alert("登录成功");  
+                      location.href="../index.html?" +_name;  
                       }else if(ress == "can"){
                          console.log(2233);
                           alert("没有该账号或密码错误"); 

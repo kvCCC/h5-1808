@@ -1,4 +1,13 @@
 jQuery(function($){
+  var $htop_l = $(".htop_l");
+
+ var yonghuming = decodeURI(location.search).slice(1);
+ // console.log(yonghuming);
+if(yonghuming){
+  $htop_l.html('<span>欢迎光临莎莎网</span><a>'+yonghuming+'</a><a href="html/login.html" style="margin-left:3px;">退出</a>');
+}else{
+  $htop_l.html('<span>欢迎光临莎莎网</span><a href="html/login.html">登录</a>或<a href="html/sign.html" style="margin-left:3px;">免费注册</a>');
+}
 
 var $xuan = $(".xuan");
 var xuan = document.querySelector(".xuan");
