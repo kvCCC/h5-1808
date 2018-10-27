@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/car.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+<!--       <link rel="stylesheet" type="text/css" href="../css/jquery.exzoom.css" /> -->
+      <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+<!--   <script type="text/javascript" src="../js/jquery.exzoom.js"></script> -->
+  <script type="text/javascript" src="../js/car.js"></script>
+   <script type="text/javascript" src="../lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <!-- header -->
+    <div id="header">
+        <div class="header con">
+            <div class="htop">
+                <div class="htop_l">
+                    <span>欢迎光临莎莎网</span>
+                    <a href="login.html">登录</a>或<a href="sign.html" style="margin-left:3px;">免费注册</a>
+                </div>
+                <div class="htop_r">
+                    <ul class="ul1">
+                        <li class="li1" id="lif"><a href="#"><span class="glyphicon glyphicon-user"></span>我的账号</a>
+                            <div class="aa">
+                                <ul class="ul2">
+                                    <li><a href="#">我的订单</a></li>
+                                    <li><a href="#">我的积分</a></li>
+                                    <li><a href="#">我的优惠券</a></li>
+                                    <li><a href="#">我的收藏</a></li>
+                                    <li><a href="#">我的评价</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="li1" id="lis"><a href="#"><span class="glyphicon glyphicon-bed"></span>我的购物车</a>
+                             <div class="bb">
+                                <ul class="ul3">
+                                <!-- <li class="goodit">
+                                    <div class="pix"><img src="../images/shangpin1.jpg" alt="" /></div>
+                                    <div class="ziliao">
+                                    <h3 class="mang"><a href="#"><span>香港特快直送 零扣关</span>SK-II 紧肤抗皱修复系列 肌源修护润致精华霜   </a></h3>
+                                    <p><span class="zhu">￥28</span><span class="ni">×3</span> <i  id="del3" class="glyphicon glyphicon-trash"></i></p>
+                                    </div>
+                                </li> -->
+                                </ul>
+                                <div class="bb1">
+                                    <a href="#" class="logto">进入购物车</a>
+                                </div>
+                            </div>
+                        </li>              
+                        <li class="li1"><a href="#"><span class="glyphicon glyphicon-heart"></span>我的收藏</a></li>
+                        <li class="li1"><a href="#">我的站内信</a></li>
+                        <li class="li1"><a href="#">积分中心</a></li>
+                        <li class="li1"><a href="#">Global site</a></li>
+                        <li class="li1"><a href="#">关注我们<span class="glyphicon glyphicon-eye-open" style="margin-left:3px;color:#ee9c23;"></span><span class="glyphicon glyphicon-globe" style="color:green;"></span></a></li>
+                    </ul>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <!-- banner -->
+    <div id="jietu">
+    <a href="../index.html"><img src="../images/gouwucar.png" height="100%" width="100%" alt="" /></a>
+    </div>
+
+    <!-- 表格 -->
+    <div class="biaoge ">
+    <table id="cart"  class="con" >
+    <thead>
+        <tr>
+            <th class="toubu">
+                <input id="gouxuan"  type="checkbox" >
+                <label for="gouxuan">香港特快直送</label>
+            </th>
+                <th class="spmc">商品名称</th>
+                <th>单价</th>
+                <th>数量</th>
+                <th>小计</th>
+                <th>&emsp;</th>
+        </tr>
+    </thead>
+    <tbody class="byxuan">
+        <!-- <tr class="tr1"> -->
+            <!-- <td class="cjw">
+                <div class="chk">
+                    <input type="checkbox" class="gouxuan2" />
+                </div>
+                <div class="tu">
+                    <a href="#"><img src="../images/shangpin1.jpg" height="57" width="100" alt="" /></a>
+                </div>
+            </td>
+            <td class="cjw2">
+                <div>
+                    <a href="#">SK-II 紧肤抗皱修复系列 肌源修护润致精华霜</a>
+                </div>
+            </td>
+            <td class="cjw3">￥35</td>
+            <td class="cjw4">
+                <div class="jiajian">
+                    <a  href="javascript:void(0);" class="btn_d">-</a>
+                    <input type="text" class="sla" value="1"/>
+                    <a href="javascript:void(0);" class="btn_a">+</a>
+                </div>
+            </td>
+            <td class="cjw5">￥210</td>
+            <td class="cjw6">
+            <a href="#" class="shanchu">删除</a>
+            </td> -->
+        <!-- </tr> -->                                             
+    </tbody>
+                                            
+    </table>
+    </div>  
+
+<!-- 结账  -->
+<div id="jiezhang">
+    <div class="jiezhang con">
+        <div class="nike">
+            <div class="he1"><a href="list.html">继续购物</a></div>
+            <div class="he2"><a href="javascript:void(0);" class="clearall">清空购物车</a></div>
+        
+            <div class="ads">
+                <div class="he3"><span>共<span class="choub">0</span>件商品</span></div>
+                <div class="he4"><span>商品应付金额</span><span class="nimab"><b>￥0</b></span></div>
+                <div class="he5"><a href="#">结账</a></div>
+             </div>
+        </div>
+    </div>
+</div>
+<!-- 尾部截图 -->
+<div id="ddd">
+    <div class="ddd" style="margin-top:20px;">
+        <img src="../images/ddd.png" alt="" style="width: 100%;height: 100%;"/>
+    </div>
+</div>
+</body>
+</html>

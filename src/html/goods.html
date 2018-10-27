@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <link rel="stylesheet" type="text/css" href="../css/jquery.exzoom.css" />
+      <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+  <script type="text/javascript" src="../js/jquery.exzoom.js"></script>
+  <script type="text/javascript" src="../js/goods.js"></script>
+   <script type="text/javascript" src="../lib/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <style>
+        body{background-color: #212121;}
+#exzoom {
+    width: 400px;
+ 
+}
+#exzoom .exzoom_img_box .exzoom_img_ul li img{
+    width: 100%;
+    height: 100%;
+}
+</style>
+</head>
+<body>
+<!-- header -->
+    <div id="header">
+        <div class="header con">
+            <div class="htop">
+                <div class="htop_l">
+                    <span>欢迎光临莎莎网</span>
+                    <a href="../html/login.html">登录</a>或<a href="../html/sign.html" style="margin-left:3px;">免费注册</a>
+                </div>
+                <div class="htop_r">
+                    <ul class="ul1">
+                        <li class="li1" id="lif"><a href="#"><span class="glyphicon glyphicon-user"></span>我的账号</a>
+                            <div class="aa">
+                                <ul class="ul2">
+                                    <li><a href="#">我的订单</a></li>
+                                    <li><a href="#">我的积分</a></li>
+                                    <li><a href="#">我的优惠券</a></li>
+                                    <li><a href="#">我的收藏</a></li>
+                                    <li><a href="#">我的评价</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="li1" id="lis"><a href="#"><span class="glyphicon glyphicon-bed"></span>我的购物车</a>
+                             <div class="bb">
+                                <ul class="ul3">
+                                <!-- <li class="goodit">
+                                    <div class="pix"><img src="../images/shangpin1.jpg" alt="" /></div>
+                                    <div class="ziliao">
+                                    <h3 class="mang"><a href="#"><span>香港特快直送 零扣关</span>SK-II 紧肤抗皱修复系列 肌源修护润致精华霜   </a></h3>
+                                    <p><span class="zhu">￥28</span><span class="ni">×3</span> <i  id="del3" class="glyphicon glyphicon-trash"></i></p>
+                                    </div>
+                                </li> -->
+                                </ul>
+                                <div class="bb1">
+                                    <a href="car.html" class="logto">进入购物车</a>
+                                </div>
+                            </div>
+                        </li>              
+                        <li class="li1"><a href="#"><span class="glyphicon glyphicon-heart"></span>我的收藏</a></li>
+                        <li class="li1"><a href="#">我的站内信</a></li>
+                        <li class="li1"><a href="#">积分中心</a></li>
+                        <li class="li1"><a href="#">Global site</a></li>
+                        <li class="li1"><a href="#">关注我们<span class="glyphicon glyphicon-eye-open" style="margin-left:3px;color:#ee9c23;"></span><span class="glyphicon glyphicon-globe" style="color:green;"></span></a></li>
+                    </ul>
+                </div>
+            </div>        
+        </div>
+    </div>
+    <!-- header下面那行 -->
+    <div id="hinput">
+        <div class="hinput con">
+            <div class="logo"><a href="../index.html"><img src="../images/logo02.png" alt="" /></a></div>
+            <div class="logo_c">
+                <div class="searc">
+                    <input type="text" placeholder="JMsolution"/><a href="#">搜索</a>
+                </div>
+                <div class="lian"><a href="#"><img src="../images/910.jpg" height="31" width="430" alt="" /></a></div>
+            </div>
+        </div>
+    </div>
+    <!-- nav -->
+    <div id="nav">
+        <div class="nav con">
+            <div class="feilei">
+                <img src="../images/alllist.png" alt="" />
+                <ul class="nav nav-pills nav-stacked">
+                    <li class="active"><a href="list.html" class="mb"><i class="glyphicon glyphicon-th"></i><span>面部护肤</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" />
+                    </li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-list-alt"></i><span>彩妆</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:71px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" />
+                    </li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-play-circle"></i><span>香水</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:71px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-upload"></i><span>健康美肌</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-cloud"></i><span>纤体美胸</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-asterisk"></i><span>个人护理</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-ruble"></i><span>男士专区</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                    <li><a href="list.html" class="mb"><i class="glyphicon glyphicon-apple"></i><span>婴孕护理</span><i class="glyphicon glyphicon-chevron-right" style="margin-left:40px;"></i></a>
+                    <img src="../images/2jnav.png" height="244" width="339" alt="" /></li>
+                </ul>
+            </div>
+            <div class="pinpai">
+                <ul>
+                    <li><a href="#"><img src="../images/xianggang.png" height="36" width="123" alt="" /></a></li>
+                    <li><a href="#">闪电保税仓</a></li>
+                    <li><a href="#">限时购买</a></li>
+                    <li><a href="#">大品牌价购</a></li>
+                    <li><a href="#">贵宾专享</a></li>
+                    <li><a href="#">所有品牌</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+<div id="news">
+  <div class="news con">
+      <div class="news_l">
+          <div class="die"><img src="../images/die.png" height="140" width="400" alt="" /></div>
+          <div class="exzoom" id="exzoom"> 
+            <!--大图区域-->
+          <div class="exzoom_img_box">
+          <ul class='exzoom_img_ul'>
+                <li><img src="../images/shangpin3.jpg"></li>
+                <li><img src="../images/shangpin1.jpg"></li>
+                <li><img src="../images/shangpin2.jpg"></li>
+                
+               <!--  <li><img src="../images/shangpin4.jpg"></li>
+                <li><img src="../images/shangpin5.jpg"></li>
+                <li><img src="../images/shangpin6.jpg"></li>
+                <li><img src="../images/shangpin7.jpg"></li> -->
+                
+          </ul>
+        </div>
+            <!--缩略图导航-->
+        <div class="exzoom_nav"></div>
+            <!--控制按钮-->
+            <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+    </div>
+      </div>
+      <div class="news_r">
+        <div class="ming">
+          <ul class="goods">
+           <!--  <li class="g1"><p>Lancome (兰蔻) 精华眼膜霜是针对易出现老化疲惫征兆的细致眼周肌肤，改善眼部肌底和眼周肌肤状况，日复一日，明晰动人的双眸，明亮新生。</p></li>
+            <li class="g2"><img src="../images/g8.png" alt="" /></li>
+            <li class="g3"> 
+              <span>数量：</span>
+              <a  href="javascript:void(0);" class="btn_d">-</a>
+                    <input type="text" class="sla" value="1"/>
+                    <a href="javascript:void(0);" class="btn_a">+</a>
+              
+            </li>
+            <li class="g4">
+              <span>特卖价</span><i>￥37</i><span class="del">市场价</span><span class="del">￥437</span>
+            </li>
+            <li class="g5"><a href="#" class="btn-car">立即抢购</a></li>
+            <li class="g6"><a href="#" class="btnin">加入购物车</a></li>  -->
+          </ul>
+        </div>
+      </div>
+  </div>
+</div>
+
+<!-- 底部 -->
+<div id="footer">
+    <div class="footer con">
+       <img src="../images/bottom1.png" height="347" width="1200" alt="" />
+    </div>
+</div>
+<!-- ================================================= -->
+    
+<!-- <script type="text/javascript">
+        $("#exzoom").exzoom({
+            autoPlay: true,
+        });//方法调用，务必在加载完后执行
+    </script> -->
+</body>
+</html>

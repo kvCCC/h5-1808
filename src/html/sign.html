@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">  
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/sign.css" />
+        <link rel="stylesheet" type="text/css" href="../css/base.css"/> 
+        <script type="text/javascript" src="../js/sign.js"></script>
+        <script src="../js/gVerify.js"></script>
+    </head>
+    <body>
+
+        <div id="pageHeader"></div>
+        <div class="login-page"><a href="#"><img src="../images/logo.png" /></a></div>
+        <div class="sing ">
+            <div class="sing-left"><img src="../images/sing-page.png" height="419" width="600" alt="" /></div>
+            <div class="sing-right">
+                <div class="sing-title">
+                    <div class="sing-title-txt">注册账号<span class="fr">已有账号? <a href="login.html" id="zuce">立即登录</a></span>
+                    </div>      
+                </div>
+                <div class="sing-box">
+                    <form action="" method="post">
+                      <ul>
+                        <li class="form-item">
+                          <label for="" class="form-label">用户名：</label>
+                          <span class="form-act">
+                            <input id="uname" class="x-input icon-yhm " type="text"   placeholder="请填写账号，最少3个字符"  ></span>
+                            <span class="tip" ></span>
+                        </li>
+                        <li class="form-item">
+                          <label for="" class="form-label">密码：</label>
+                          <span class="form-act">
+                            <input id="upassword" class="x-input icon-mm" type="password"  maxlength="16"  placeholder="请填写密码，6-16个字符" ></span>
+                             <p class="tipp" ></p>
+                        </li>
+                        <li class="form-item"  style="height:38px;">
+                          <label for="" class="form-label">密码：</label>
+                          <span class="form-act">
+                            <input id="spassword" class="x-input icon-mm" type="password"  maxlength="16"  placeholder="再次填写密码" ></span>
+                        </li>
+                        <span class="tippp" ></span>
+                        <li class="form-item " style="margin-top:0;height:40px;">
+                         
+    <input type="text" id="code_input" value="" placeholder="请输入验证码" style="width:120px;height:35px;line-height:35px;float:left;"/> <div id="v_container" style="width: 80px;height: 36px;float:left;"></div><span style="display:inline-block;vertical-align: middle;margin-left:15px;margin-top:8px; font-size: 12px;color: #ec3e7d">点击图片更换</span>
+    
+    <!-- <button id="my_button">验证</button> -->
+
+                         <!--  <label for="" class="form-label">验证码：</label>
+                          <span class="form-act"> -->
+                            <!-- <input class="x-input verify-input img_input" type="text" name="verifycode" placeholder="填写图片验证码"  maxlength="4" > -->
+                             <!-- <span id="mpanel2" class="auto-change-verify-handle "></span>  -->
+                            <!-- <a href="#" class=" auto-change-verify-handle">看不清?换一张</a></span> -->
+                        </li>
+                        <span class="yan" ></span>
+                        <li class="form-item">
+                          <label for="" class="form-label"></label>
+                          <span class="form-act">
+                            <input type="checkbox"id="cbox" checked >
+                            <label for="for_auto_signin" >你已阅读及接受使用条款及私隐政策</label><br />
+                            <input type="checkbox"id="cbox" checked >
+                            <label for="for_auto_signin" >我不同意莎莎使用我的个人资料作直接促销</label>
+                            </span>
+                        </li>
+
+                        <li class="form-item-normal">
+                          <label for="" class="form-label"></label>
+                          <span class="form-act">
+                            <a  id="my_button" class="btn-big" >
+                              <span>
+                                <span>注册</span></span>
+                            </a>
+
+                          </span>
+                        </li>
+                      </ul>
+                      <input type="hidden" name="log_token" id="J-token">
+                    </form>
+                    <!-- <div class="other-login">
+                        <p>第三方账号登录</p>
+                        <ul>
+                            <li><a href="#"><img src="../images/login01.jpg" alt="" />QQ登录</a></li>
+                            <li><a href="#"><img src="../images/login02.jpg" alt="" />微博登录</a></li>
+                            <li><a href="#"><img src="../images/login03.jpg" alt="" />支付宝登录</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        
+  
+    </body>
+</html>
